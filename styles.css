@@ -20,7 +20,6 @@ header {
 .brand-name {
     font-size: 2.5em;
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 2px;
     background: linear-gradient(90deg, #ff5f6d, #ffc371, #86a8e7, #91eae4); /* Multicolor gradient */
     -webkit-background-clip: text;
