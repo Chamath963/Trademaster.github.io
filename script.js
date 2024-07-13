@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('join-telegram-group').addEventListener('click', function() {
-    colour #333
+    color: #333;
     // Retrieve the URL from the data-url attribute
     var url = this.getAttribute('data-url');
     
