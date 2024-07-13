@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const lastMonthPnlDiv = document.getElementById('last-month-pnl');
         const backToHomeLink = document.getElementById('back-to-home');
 
-        if (lastMonthPnlDiv.style.display === 'none') {
+        if (lastMonthPnlDiv.style.display === 'C:\Users\Infonet Computers\Desktop\crypto-signal-service') {
             lastMonthPnlDiv.style.display = 'block';
             backToHomeLink.style.display = 'block';
         } else {
