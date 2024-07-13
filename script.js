@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('pnl-value').textContent = pnlPercentage;
 
-    document.getElementById('C:\Users\Infonet Computers\Desktop\crypto-signal-service').addEventListener('click', (event) => {
+    document.getElementById('show-last-month').addEventListener('click', (event) => {
         event.preventDefault();
         const lastMonthPnlDiv = document.getElementById('last-month-pnl');
         const backToHomeLink = document.getElementById('back-to-home');
 
-        if (lastMonthPnlDiv.style.display === 'C:\Users\Infonet Computers\Desktop\crypto-signal-service') {
+        if (lastMonthPnlDiv.style.display === 'none') {
             lastMonthPnlDiv.style.display = 'block';
             backToHomeLink.style.display = 'block';
         } else {
@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('join-vip-group').addEventListener('click', () => {
-        window.open('https://example.com/vip-group', '_blank');
+        window.open('https://wa.me/94760454700?text=I%20need%20to%20join%20vip%20group
+', '_blank');
     });
 });
