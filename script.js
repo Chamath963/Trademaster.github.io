@@ -6,6 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('last-month-link').addEventListener('click', (event) => {
         event.preventDefault();
         const lastMonthPnlDiv = document.getElementById('last-month-pnl');
-        lastMonthPnlDiv.style.display = lastMonthPnlDiv.style.display === 'none' ? 'block' : 'none';
+        const pnlImage = document.getElementById('pnl-image');
+        
+        if (lastMonthPnlDiv.style.display === 'none') {
+            lastMonthPnlDiv.style.display = 'block';
+            pnlImage.style.display = 'block'; // Ensure image is visible when div is shown
+        } else {
+            lastMonthPnlDiv.style.display = 'none';
+            pnlImage.style.display = 'none'; // Hide image when div is hidden
+        }
     });
 });
