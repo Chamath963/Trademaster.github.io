@@ -1,19 +1,34 @@
 document.addEventListener('DOMContentLoaded', () => {
     const pnlData = [14, -20, 60, 2, 35, 4, 131, -50];
     const overallPnl = pnlData.reduce((acc, val) => acc + val, 0);
-    document.getElementById('overall-pnl').textContent = `Overall PNL: ${overallPnl}%`;
+    const pnlPercentage = overallPnl > 0 ? `+${overallPnl}%` : `${overallPnl}%`;
+
+    document.getElementById('pnl-value').textContent = pnlPercentage;
 
     document.getElementById('last-month-link').addEventListener('click', (event) => {
         event.preventDefault();
         const lastMonthPnlDiv = document.getElementById('last-month-pnl');
-        const pnlImage = document.getElementById('pnl-image');
-        
+        const backToHomeLink = document.getElementById('back-to-home');
+
         if (lastMonthPnlDiv.style.display === 'none') {
             lastMonthPnlDiv.style.display = 'block';
-            pnlImage.style.display = 'block'; // Ensure image is visible when div is shown
+            backToHomeLink.style.display = 'block';
         } else {
             lastMonthPnlDiv.style.display = 'none';
-            pnlImage.style.display = 'none'; // Hide image when div is hidden
+            backToHomeLink.style.display = 'none';
         }
+    });
+
+    document.getElementById('back-to-home').addEventListener('click', (event) => {
+        event.preventDefault();
+        const lastMonthPnlDiv = document.getElementById('last-month-pnl');
+        const backToHomeLink = document.getElementById('back-to-home');
+
+        lastMonthPnlDiv.style.display = 'none';
+        backToHomeLink.style.display = 'none';
+    });
+
+    document.getElementById('join-vip-group').addEventListener('click', () => {
+        window.open('https://example.com/vip-group', '_blank');
     });
 });

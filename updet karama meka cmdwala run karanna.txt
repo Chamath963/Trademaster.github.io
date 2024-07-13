@@ -4,19 +4,11 @@ git push origin main
 
 
 
-edit PNL Report table.
+there are show last month pnl img without clicking ''last month's pnl''.i want to only show the last month pnl img when it click.and it need to show in another clean site.after the go to see clicking ''last month pnl'' it need to show back button to homepage. and there are not show anything infront of ''overall pnl''.calculate profit precentages and loss precentages, show overall pnl infront of ''Overall pnl'' text.highlite overall pnl precentage with green colour.
 
-remove all and re write as i say.
-table need three. date, coin,leverage, profit or loss
+need to add ''Join Our Vip Group'' buttun and after the user touch it, user go to another tab and show this.
 
+''Join our vip group
+ only 12$ for a month''
 
- 2024/07/10 - btcusdt long 20x profit 14%
-                       WLDusdt long 50x loss 20%
-                        wldusdt long 50x profit 60%
-
-2024/07/11 - bomeusdt long 30x profit 2%
-                      bomeusdt long 20x profit 35%
-                      btcusdt short 25x profit 4%
-                      bomeusdt short 20x profit 131%
-
-2024/
+only 12$ for

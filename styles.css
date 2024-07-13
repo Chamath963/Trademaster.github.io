@@ -106,3 +106,27 @@ li {
 .signal-button:hover {
     background-color: #55efc4;
 }
+
+#join-vip-group {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #00b894;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: color-cycle 2s infinite;
+}
+
+@keyframes color-cycle {
+    0% {
+        background-color: #00b894;
+    }
+    50% {
+        background-color: #55efc4;
+    }
+    100% {
+        background-color: #00b894;
+    }
+}
