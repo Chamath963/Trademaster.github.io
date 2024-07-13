@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #f4f4f9;
 }
 
 header {
@@ -18,11 +19,10 @@ header {
 
 .brand-name {
     font-size: 2.5em;
-    color: #333;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
-    background: linear-gradient(to right, gold, orange);
+    background: linear-gradient(to right, #00b894, #55efc4); /* Green gradient */
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -53,11 +53,11 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #b2bec3; /* Light gray background for table headers */
 }
 
 a {
-    color: #007bff;
+    color: #00b894; /* Green color for links */
     text-decoration: none;
 }
 
@@ -72,4 +72,21 @@ ul {
 
 li {
     margin-bottom: 5px;
+}
+
+.signal-button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #00b894; /* Green background for signal buttons */
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.signal-button:hover {
+    background-color: #55efc4; /* Lighter green on hover */
 }
