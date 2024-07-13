@@ -1,11 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Calculate and display overall PnL
     const pnlData = [5, -2, 1.5];
     const overallPnl = pnlData.reduce((acc, val) => acc + val, 0);
     document.getElementById('overall-pnl').textContent = `Overall PNL: ${overallPnl}%`;
 
-    document.getElementById('last-month-link').addEventListener('click', (event) => {
+    // Toggle the visibility of the last month's PnL image
+    document.getElementById('show-pnl-link').addEventListener('click', (event) => {
         event.preventDefault();
-        const lastMonthPnlDiv = document.getElementById('last-month-pnl');
-        lastMonthPnlDiv.style.display = lastMonthPnlDiv.style.display === 'none' ? 'block' : 'none';
+        const pnlImageContainer = document.getElementById('pnl-image-container');
+        pnlImageContainer.style.display = pnlImageContainer.style.display === 'none' ? 'block' : 'none';
     });
 });

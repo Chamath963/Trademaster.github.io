@@ -102,3 +102,7 @@ li {
 .signal-button:hover {
     background-color: #55efc4; /* Lighter green on hover */
 }
+
+.hidden {
+    display: none;
+}
