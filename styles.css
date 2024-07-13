@@ -1,32 +1,46 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-h1 {
+header {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 20px 0;
     text-align: center;
-    color: #007BFF;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.brand-name {
+    font-size: 2.5em;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, gold, orange);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+main {
+    width: 80%;
 }
 
 h2 {
-    margin-top: 20px;
-    color: #333;
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 10px;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 table, th, td {
@@ -39,15 +53,12 @@ th, td {
 }
 
 th {
-    background-color: #007BFF;
-    color: white;
+    background-color: #f2f2f2;
 }
 
 a {
-    color: #007BFF;
+    color: #007bff;
     text-decoration: none;
-    display: inline-block;
-    margin-top: 20px;
 }
 
 a:hover {
@@ -55,15 +66,10 @@ a:hover {
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
 li {
-    background: #007BFF;
-    color: #fff;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    text-align: center;
+    margin-bottom: 5px;
 }
