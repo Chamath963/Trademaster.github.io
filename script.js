@@ -28,8 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
         backToHomeLink.style.display = 'none';
     });
 
-    document.getElementById('join-vip-group').addEventListener('click', () => {
-        window.open('https://wa.me/94760454700?text=I%20need%20to%20join%20vip%20group
-', '_blank');
+    document.getElementById('join-telegram-group').addEventListener('click', function() {
+    // Retrieve the URL from the data-url attribute
+    var url = this.getAttribute('data-url');
+    
+    // Open the URL in a new tab/window
+    window.open(url, '_blank');
     });
 });
