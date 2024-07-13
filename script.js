@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const pnlData = [5, -2, 1.5];
+    const pnlData = [14, -20, 60, 2, 35, 4, 131, -50];
     const overallPnl = pnlData.reduce((acc, val) => acc + val, 0);
     document.getElementById('overall-pnl').textContent = `Overall PNL: ${overallPnl}%`;
 
