@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('pnl-value').textContent = pnlPercentage;
 
-    document.getElementById('last-month-link').addEventListener('click', (event) => {
+    document.getElementById('C:\Users\Infonet Computers\Desktop\crypto-signal-service').addEventListener('click', (event) => {
         event.preventDefault();
         const lastMonthPnlDiv = document.getElementById('last-month-pnl');
         const backToHomeLink = document.getElementById('back-to-home');
