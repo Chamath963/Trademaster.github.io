@@ -21,10 +21,10 @@ header {
     font-size: 2.5em;
     font-weight: bold;
     letter-spacing: 2px;
-    background: linear-gradient(90deg, #ff5f6d, #ffc371, #86a8e7, #91eae4); /* Multicolor gradient */
+    background: linear-gradient(90deg, #ff5f6d, #ffc371, #86a8e7, #91eae4);
     -webkit-background-clip: text;
     color: transparent;
-    animation: gradient-animation 5s ease infinite; /* Add animation for a dynamic effect */
+    animation: gradient-animation 5s ease infinite;
 }
 
 @keyframes gradient-animation {
@@ -65,16 +65,20 @@ th, td {
 }
 
 th {
-    background-color: #b2bec3; /* Light gray background for table headers */
+    background-color: #b2bec3;
 }
 
 a {
-    color: #00b894; /* Green color for links */
+    color: #00b894;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+#last-month-pnl {
+    margin-top: 20px;
 }
 
 ul {
@@ -93,16 +97,12 @@ li {
     margin-bottom: 10px;
     text-align: center;
     color: #fff;
-    background-color: #00b894; /* Green background for signal buttons */
+    background-color: #00b894;
     border: none;
     border-radius: 5px;
     font-size: 1em;
 }
 
 .signal-button:hover {
-    background-color: #55efc4; /* Lighter green on hover */
-}
-
-.hidden {
-    display: none;
+    background-color: #55efc4;
 }
