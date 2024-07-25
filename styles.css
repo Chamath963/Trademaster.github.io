@@ -153,6 +153,10 @@ li {
     font: bold;
 }
 
+.text2{
+    font-size: 50px;
+    font: bold;
+}
 
 @keyframes color-cycle {
     0% {
