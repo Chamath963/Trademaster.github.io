@@ -31,6 +31,14 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('join-telegram-group').addEventListener('click', function() {
     color: #333;
     margin-bottom: 10px;
+
+    document.getElementById('join-free-signal-group').addEventListener('click', function() {
+        color: #333;
+        margin-bottom: 10px;
+
+    document.getElementById('join-vip-group').addEventListener('click', function() {
+        color: #333;
+        margin-bottom: 10px;
     // Retrieve the URL from the data-url attribute
     var url = this.getAttribute('data-url');
     
